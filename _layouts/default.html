@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- Standard favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+
+  <!-- Favicon for browsers that look for favicon.ico -->
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+
+  <!-- Apple touch icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+
+  <!-- Android / Chrome -->
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+</head>
+<body>
+  <main class="content">
+    {{ content }}
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/scratchblocks@3.6.4/build/scratchblocks.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      scratchblocks.renderMatching(
+        'pre > code.language-scratch',
+        { style: 'scratch3' }
+      );
+    });
+  </script>
+</body>
+</html>

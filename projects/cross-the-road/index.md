@@ -198,8 +198,8 @@ stop [all v]
 * *Can you display the game over sprite when the player gets hit?*
 * *Can you make the player not get hit in each of these two situations?* **TRICKY** 🤔
 
-![Step 8 - Hit area 1](/assets/img/step-08-01.png)
-![Step 8 - Hit area 2](/assets/img/step-08-02.png)
+![Step 8 - Hit area 1](img/step-08-01.png)
+![Step 8 - Hit area 2](img/step-08-02.png)
 
 ---
 

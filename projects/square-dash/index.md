@@ -12,6 +12,8 @@ These steps are available at [bit.ly/square-dash-steps](https://bit.ly/square-da
 
 {% include scratch-embed.html id="1264077576" %}
 
+---
+
 </section>
 <section markdown="1">
 

@@ -4,6 +4,10 @@ layout: default
 
 # Square Dash
 
+## What you will make
+
+{% include scratch-embed.html id="1264077576" %}
+
 ## Step 1: Draw the background
 
 ![Step 1 - Draw background](img/step-01-01.png)

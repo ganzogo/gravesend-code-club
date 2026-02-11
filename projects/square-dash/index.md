@@ -2,23 +2,40 @@
 layout: default
 ---
 
+<section markdown="1">
+
 # Square Dash
+
+These steps are available at [bit.ly/square-dash-steps](https://bit.ly/square-dash-steps).
 
 ## What you will make
 
 {% include scratch-embed.html id="1264077576" %}
 
+</section>
+<section markdown="1">
+
 ## Step 1: Draw the background
+
+Start with an empty Scratch project. Draw the background however you want, but include a floor at the bottom for your player to stand on.
 
 ![Step 1 - Draw background](img/step-01-01.png)
 
 ---
 
+</section>
+<section markdown="1">
+
 ## Step 2: Draw the player sprite
+
+Design your player however you like.
 
 ![Step 2 - Draw player](img/step-02-01.png)
 
 ---
+
+</section>
+<section markdown="1">
 
 ## Step 3: Position the player on the ground
 
@@ -28,6 +45,9 @@ go to x: [-150] y: [-75]
 ```
 
 ---
+
+</section>
+<section markdown="1">
 
 ## Step 4: Make the player jump
 
@@ -48,15 +68,26 @@ forever
 end
 ```
 
-* Can you make the player spin do a backflip when they jump?
+* *Can you change the height that the player jumps?*
+* *Can you make the player jump slower or faster?*
+* *Can you make the player do a backflip when they jump?*
+* *Can you make the player jump more smoothly?* **TRICKY** 🤔
 
 ---
 
+</section>
+<section markdown="1">
+
 ## Step 5: Draw an obstacle sprite
+
+Draw something for the player to jump over.
 
 ![Step 5 - Draw obstacle](img/step-05-01.png)
 
 ---
+
+</section>
+<section markdown="1">
 
 ## Step 6: Create a clone
 
@@ -83,6 +114,19 @@ end
 hide
 ```
 
+* *Can you make the obstacle move faster or slower across the screen?*
+* *Can you make the obstacles appear more regularly?*
+* *Can you make the obstacles appear at random times?*
+* *Can you make the size of obstacles be random?*
+* *Can you add different types of obstacles?*
+* *Can you add a floating obstacle?*
+* *Can you make the obstacles spin or move up and down?*
+
+---
+
+</section>
+<section markdown="1">
+
 ## Step 7: End the game when the player hits the obstacle
 
 Inside the **repeate until** we are going to add a check to see if the obstacle is touching the player. If it is, we will broadcast a **game over** message.
@@ -100,11 +144,21 @@ end
 hide
 ```
 
+---
+
+</section>
+<section markdown="1">
+
 ## Step 8: Create a game over sprite
 
 Create a new sprite which will be displayed when the game is over. You could use the Text tool to write the words "game over".
 
 ![Step 8 - Draw game over](img/step-08-01.png)
+
+---
+
+</section>
+<section markdown="1">
 
 ## Step 9: Display the game over sprite
 
@@ -124,6 +178,11 @@ show
 stop [all v]
 ```
 
+---
+
+</section>
+<section markdown="1">
+
 ## Step 10: Count the distance travelled
 
 Create a variable called **distance** and make sure it is ticked so it appears on the screen.
@@ -140,19 +199,21 @@ change [distance v] by (1)
 end
 ```
 
+* *How do you set the distance back to zero when the game starts?*
+* *How do you make the distance go up more quickly or slowly?*
+* *How do you store the furthest distance you have reached?*
+
+---
+
+</section>
+<section markdown="1">
+
 ## Challenges
 
-* High score
-* Change the background colour
-* Add levels and make the game get faster with each level
-* Add rocket level
-* Add sound effects
-* Add background music
-* Different obstacle sizes
-* Obstacles more often
-* Different types of obstacles
-* Make the obstacles spin
-* Make the obstacles move up and down
-* Add lives
-* Choose player avatar
-* Animate the player (e.g. make it blink)
+* *Can you change the background colour as you progress?*
+* *Can you add levels and make the game get faster with each level?*
+* *Can you add sound effects when you jump or when you hit an obstacle?*
+* *Can you add background music?*
+* *Can you add lives so that you don't lose the first time you hit an obstacle?*
+* *Can you add different player avatars?*
+* *Can you animate the player? For example, can make the eyes blink?*

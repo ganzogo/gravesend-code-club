@@ -129,7 +129,7 @@ hide
 
 ## Step 7: End the game when the player hits the obstacle
 
-Inside the **repeate until** we are going to add a check to see if the obstacle is touching the player. If it is, we will broadcast a **game over** message.
+Inside the **repeat until** we are going to add a check to see if the obstacle is touching the player. If it is, we will broadcast a **game over** message.
 
 ```scratch
 when I start as a clone

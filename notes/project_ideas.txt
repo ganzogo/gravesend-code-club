@@ -2,7 +2,7 @@
 
 * January 10th: Cross the Road
 * February: Square Dash
-* March:
+* March: Snake
 * April:
 * May:
 * June:

@@ -46,24 +46,20 @@ end
 
 ## Step 3: Add controls to change the direction of the snake
 
+This code should go at the end of your **forever** loop:
+
 ```scratch
-when green flag clicked
-go to x: [0] y: [0]
-point in direction [90]
-forever
-    move [5] steps
-    if <key (left arrow v) pressed?> then
-        point in direction [-90]
-    end
-    if <key (right arrow v) pressed?> then
-        point in direction [90]
-    end
-    if <key (up arrow v) pressed?> then
-        point in direction [0]
-    end
-    if <key (down arrow v) pressed?> then
-        point in direction [180]
-    end
+if <key (left arrow v) pressed?> then
+    point in direction [-90]
+end
+if <key (right arrow v) pressed?> then
+    point in direction [90]
+end
+if <key (up arrow v) pressed?> then
+    point in direction [0]
+end
+if <key (down arrow v) pressed?> then
+    point in direction [180]
 end
 ```
 
@@ -106,7 +102,7 @@ hide
 </section>
 <section markdown="1">
 
-## Step 6: 
+## Step 6: Clone the snake body
 
 Back in the snake head sprite, add this block at the end of your **forever** loop.
 
@@ -119,7 +115,7 @@ create clone of (snake body v)
 </section>
 <section markdown="1">
 
-## Step 7: 
+## Step 7: Make the snake body move
 
 Now inside the snake body sprite, add this code to show the first costume then the second costume:
 
@@ -142,7 +138,7 @@ When you test the game now, you should see a 2-colour snake body following the h
 </section>
 <section markdown="1">
 
-## Step 8: 
+## Step 8: Draw some food for the snake
 
 Next we want to add some food for the snake to eat. You could draw some food or choose one of the existing sprites.
 
@@ -153,7 +149,7 @@ Next we want to add some food for the snake to eat. You could draw some food or 
 </section>
 <section markdown="1">
 
-## Step 9: 
+## Step 9: Setup the food sprite
 
 You should create a variable called "food" and add this code to the food sprite:
 
@@ -171,7 +167,7 @@ This will hide the food, then create a clone of it (which will also start as hid
 </section>
 <section markdown="1">
 
-## Step 10: 
+## Step 10: Let the snake eat the food
 
 Also in the food sprite, add this code:
 
@@ -199,7 +195,7 @@ This will put the food in a random position, and when the snake eats the food, i
 </section>
 <section markdown="1">
 
-## Step 11: 
+## Step 11: End the game if the player loses
 
 Lastly, we want the game to end if the snake touches the edge of the screen, or if it touches its own body. This is where the 2 colour body comes in handy!
 

@@ -7,3 +7,4 @@ layout: default
 * [Cross the Road](projects/cross-the-road)
 * [Square Dash](projects/square-dash)
 * [Snake](projects/snake)
+* [Platformer](projects/platformer)

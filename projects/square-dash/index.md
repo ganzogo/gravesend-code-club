@@ -217,3 +217,5 @@ end
 * *Can you add lives so that you don't lose the first time you hit an obstacle?*
 * *Can you add different player avatars?*
 * *Can you animate the player? For example, can make the eyes blink?*
+
+</section>

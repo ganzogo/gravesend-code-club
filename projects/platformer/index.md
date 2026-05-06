@@ -28,6 +28,10 @@ These steps are available at [bit.ly/platformer-steps](https://bit.ly/platformer
 
 ## Step 2: Add a variable called *jump speed*
 
+```scratch
+when green flag clicked
+set [jump speed v] to (0)
+```
 
 -
 
@@ -36,7 +40,7 @@ These steps are available at [bit.ly/platformer-steps](https://bit.ly/platformer
 </section>
 <section markdown="1">
 
-## Step 3: Make the character fall to the bottom of the screen
+## Step 3: Make the character fall to the bottom of the screen with gravity
 
 ```scratch
 when green flag clicked
@@ -49,6 +53,8 @@ end
 ```
 
 ---
+
+* *How can you make gravity lower, like on the moon? Or higher, like on Jupiter?*
 
 </section>
 <section markdown="1">

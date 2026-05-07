@@ -32,7 +32,6 @@ Click *Make a Variable* and call it *jump speed*. Untick the variable so that it
 
 Now set the *jump speed* to **0** when the game starts.
 
-
 ```scratch
 when green flag clicked
 set [jump speed v] to (0)
@@ -149,6 +148,7 @@ end
 This means that the character will only jump if it is on the ground. Try pressing the *up arrow* to see the character jumping.
 
 * *Can you make the character jump higher or lower?*
+* *Can you play a sound effect when the character jumps?*
 
 ---
 

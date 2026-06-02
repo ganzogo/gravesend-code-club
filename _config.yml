@@ -1,1 +1,17 @@
+title: Gravesend Code Club
+description: Resources for Gravesend Code Club
+author:
+  name: Matthew Hasler
+
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
 markdown: kramdown
+
+# Blog settings
+paginate: 5
+paginate_path: /page:num/

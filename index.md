@@ -1,11 +1,20 @@
 ---
-layout: default
+layout: splash
+title: Gravesend Code Club
+classes:
+  - wide
+
+excerpt: >
+  Learn to code, make games, build projects and have fun with technology.
+  Open to children in Gravesend and the surrounding area.
+
+header:
+  overlay_image: /assets/img/code-club.png
+  overlay_filter: 0.4
+  
+  actions:
+    - label: "Read Posts"
+      url: /blog/
 ---
 
-# Gravesend Code Club
-
-* [Cross the Road](projects/cross-the-road)
-* [Square Dash](projects/square-dash)
-* [Snake](projects/snake)
-* [Platformer](projects/platformer)
-* [Fireworks](projects/fireworks)
+Learn to code, make games, build projects and have fun with technology.
